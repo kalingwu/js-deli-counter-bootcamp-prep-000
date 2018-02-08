@@ -13,6 +13,7 @@ function nowServing(katzDeliLine) {
   else {
     
      name = katzDeliLine.shift()
+     console.log(name)
  return "Currently serving "+ name + "."
     
     return "Currently serving " + katzDeliLine[0] + "."
