@@ -22,7 +22,6 @@ function currentLine(katzDeliLine) {
   }
   else {
     for (var i = 0; i<katzDeliLine.length; i++)
-    return "Currently serving "+ name + "."
   }
 }
 
