@@ -14,7 +14,7 @@ function nowServing(katzDeliLine) {
     
     var name = katzDeliLine.shift()
      console.log(name)
- return "Currently serving "+ name[0] + "."
+ return "Currently serving "+ name + "."
     
 
   }
