@@ -25,6 +25,7 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i<katzDeliLine.length; i++) {
       text = text + i + '. ' + katzDeliLine[i]
     }
+    return text
   }
 }
 
