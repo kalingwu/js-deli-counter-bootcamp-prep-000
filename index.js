@@ -25,10 +25,10 @@ function currentLine(katzDeliLine) {
     for (var i = 0; i<katzDeliLine.length; i++) {
       var position = i + 1
       if (position===katzDeliLine.length) { 
-      text =  text + position + '. ' + katzDeliLine[i] + 
+      text =  text + position + '. ' + katzDeliLine[i]
       }
       else {
-      text =  text + position + '. ' + katzDeliLine[i] 
+      text =  text + position + '. ' + katzDeliLine[i] + ", "
       }
     }
     return text
