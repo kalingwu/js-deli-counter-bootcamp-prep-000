@@ -28,7 +28,7 @@ function currentLine(katzDeliLine) {
       text =  text + position + '. ' + katzDeliLine[i]
       }
       else {
-      text =  text + position + '. ' + katzDeliLine[i] + ', '  
+      text =  text + position + '. ' + katzDeliLine[i] + 
       }
     }
     return text
