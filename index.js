@@ -27,6 +27,9 @@ function currentLine(katzDeliLine) {
       if () { 
       text =  text + position + '. ' + katzDeliLine[i] + ', '
       }
+      else {
+        
+      }
     }
     return text
   }
