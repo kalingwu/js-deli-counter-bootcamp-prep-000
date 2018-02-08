@@ -16,12 +16,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function nowServing (deliLine){
- var name;
- 
- name = deliLine.shift()
- return "Currently serving "+ name + "."
- }
+
 
 
 
